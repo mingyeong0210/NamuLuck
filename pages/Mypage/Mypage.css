@@ -73,3 +73,8 @@ nav a:hover {
     border-radius: 50px;
     background-color: white;
 }
+
+#loginbtn a {
+    color: #454411;
+    text-decoration: none;
+}
