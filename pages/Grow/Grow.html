@@ -8,6 +8,7 @@
         <title>NamuLuck</title>
 
         <link href="Grow.css" rel="stylesheet"></li>
+        <script src="Grow.js"></script>
     </head>
     
     <body>
@@ -31,6 +32,30 @@
     </header>
 
     <div class="content">
+        <div class="top">
+            <img class='cloud1' src="../../resources/images/cloud.png" alt="cloud">
+            <img class='cloud2' src="../../resources/images/cloud.png" alt="cloud">
+
+            <img class="tree1" src="../../resources/images/tree1.png" alt="tree1">
+            <img class="tree2" src="../../resources/images/tree2.png" alt="tree2">            
+            <img class="tree3" src="../../resources/images/tree3.png" alt="tree3">            
+            <img class="tree4" src="../../resources/images/tree4.png" alt="tree4">
+
+            <div id='text' onclick="setTreeCount()"> </div>
+            
+            <button id="waterbtn" onclick="location.href='../Quiz/Quiz.html'"></button>
+            <img class="water" src="../../resources/images/water.png" alt="water">
+            <div id="get">물 구하기</div>
+
+            <button id="splashbtn" onclick="up()"></button>
+            <img class="splash" src="../../resources/images/splash.png" slt=""splash>
+            <div id="put">물 뿌리기</div>
+            
+        </div>
+        <div class="bottom">
+            <!-- <div id="getCount"></div> -->
+            <div id="putCount"></div>
+        </div>
 
     </div>
     
