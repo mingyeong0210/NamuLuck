@@ -140,7 +140,7 @@ nav a:hover {
 
 #video {
     width: 800px;
-    height: 450px;
+    height: 380px;
     background-color: lightgray;
     display: flex;
     flex-direction: column;
