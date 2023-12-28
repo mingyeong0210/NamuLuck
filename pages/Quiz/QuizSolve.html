@@ -39,8 +39,35 @@
         </div>
 
         <div id="videoarea">
-            <iframe id="video" src="https://www.youtube.com/embed/PqxCeoWxcrU?si=GK3Awg0qefwN-OZ3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <button id="quizbtn"><a href="./QuizSolve.html">퀴즈 풀기</a></button>
+            <div id="question"> 
+                Q. 000은 못난이 농산물을 해결하기 위한 움직임을 뜻하는 말이다
+            </div>
+            <div id="question"> 
+                이때 000 안에 들어갈 말로 옳은 것은? 
+            </div>
+            <button id="answer1">1. 두부리퍼브</button>
+            <button id="answer2">2. 푸드리시브</button>
+            <button id="answer3">3. 푸드리퍼브</button>
+            <button id="answer4">4. 푸주리버블</button>
+
+            <script>
+                var correctAnswer = 3;
+            
+                var answerButtons = document.querySelectorAll('button');
+            
+                answerButtons.forEach(function(button) {
+                    button.addEventListener('click', function() {
+                        var selectedAnswer = parseInt(button.id.replace('answer', ''));
+            
+                        if (selectedAnswer === correctAnswer) {
+                            alert('정답입니다! 물 1개를 획득하셨습니다.');
+                        } else {
+                            alert('오답입니다!');
+                        }
+                    });
+                });
+            </script>
+                
         </div>
 
     </div>
