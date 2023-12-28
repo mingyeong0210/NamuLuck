@@ -1,13 +1,8 @@
-body, html {
-    height: 100%;
-    margin: 0;
-}
-
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #454411;
+    width: 100%;
+    height: 2800px;
+    background: linear-gradient(180deg, hwb(0 100% 0%) 0%, rgba(255, 255, 255, 0.98) 0.01%, rgba(255, 255, 255, 0.99) 16.67%,
+     #D7DCA2 100%);
 }
 
 header {
@@ -77,4 +72,134 @@ nav a:hover {
 #loginbtn a {
     color: #454411;
     text-decoration: none;
+}
+
+body {
+    width: 100%;
+    height: 2800px;
+    background: linear-gradient(180deg, hwb(0 100% 0%) 0%, rgba(255, 255, 255, 0.98) 0.01%, rgba(255, 255, 255, 0.99) 16.67%,
+     #D7DCA2 100%);
+  }
+
+.header {
+  height: 56px;
+  display: flex;
+  margin-top: 15px;
+  font-weight: 500;
+  font-size: 14px;
+  border: 1px solid #000000;
+}
+
+.header img {
+  width: 134px;
+  height: 33px;
+  margin: 12px 0 0 232px;
+}
+
+
+.middle1 {
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  color: #454411;
+}
+
+.middle1 img:nth-child(1) {
+  width: 100px;
+  height: 94px;
+  margin : 200px 700px 0 0 ;
+}
+
+.middle1 img:nth-child(2) {
+  width: 638px;
+  height: 157px;
+  margin: 0 440px;
+}
+.middle1 img.banana {
+  width: 100px;
+  height: 94px;
+  margin: 50px 0 0 700px;
+}
+
+.middle2 {
+  display: flex;
+  justify-content: center;
+}
+
+section {
+  /* width: 700px; */
+  height: 900px;
+  margin-top: 300px; 
+  margin-left: 400px;
+  padding-right: 90px;
+
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  color: #454411;
+
+}
+
+aside {
+  width: 700px;
+  height: 900px;
+  margin: 320px 0 0 0 ;
+  padding-top: 50px;
+
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  color: #454411;
+}
+
+section img.youtube {
+  width: 250px;
+  height: 250px;
+  margin-bottom: 400px;
+}
+
+aside img.quiz {
+  width: 250px;
+  height: 250px;
+  margin-top: 400px;
+}
+
+footer {
+  
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  color: #454411;
+}
+
+footer img.tree1 {  
+  margin: 0 0 100px 0;
+}
+footer img.tree2 {
+  margin: 0 0 0 200px;
+}
+footer img.tree3 {
+  margin: 0 0 100px 0;
+}
+footer img.tree4 {
+  margin: 100px 0 0 200px;
+}
+
+#growbtn {
+  margin: 50px 0;
+  
+  width: 448px;
+  height: 56px;
+  border-radius: 50px;
+  border: 1px solid var(--main2, #89A02E);
+  background: var(--white, #FFF);
+  padding: 10px 20px;
+  font-size: 24px;
+  color: #454411;
+  font-weight: 700;
+  cursor: pointer;
 }
